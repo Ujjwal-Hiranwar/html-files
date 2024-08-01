@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div class="relative flex flex-col m-6 space-y-8 bg-white shadow-2xl rounded-2xl md:flex-row md:space-y-0">
+      <!-- left side -->
+      <div class="flex flex-col justify-start p-8 md:p-14">
+       <span class="mb-8 text-3xl font-serif font-sans">Unleash Your Style !!!</span>
+       
+        
+        <div class="py-4">
+          <span class="mb-2 text-md ">Username</span>
+          <input
+            type="text"
+            class="w-full p-2 border border-gray-300 mt-2 rounded-md placeholder:font-light placeholder:text-gray-500"
+            name="Username"
+            id="Username"
+            placeholder="Enter Your Username"
+          />
+        </div>
+        
+        <div class="py-4">
+          <span class="mb-2 text-md">Email</span>
+          <input
+            type="text"
+            class="w-full p-2 border border-gray-300 mt-2 rounded-md placeholder:font-light placeholder:text-gray-500"
+            name="Email"
+            id="Email"
+            placeholder="Enter Your Mail"
+          />
+        </div>
+        
+        <div class="py-4">
+          <span class="mb-2 text-md">Password</span>
+          <input
+            type="password"
+            name="pass"
+            id="pass"
+            placeholder="Enter Your Password"
+            class="w-80 p-2 border border-gray-300 mt-2 rounded-md placeholder:font-light placeholder:text-gray-500"
+          />
+        </div>
+        
+       
+        <button
+          class="w-full bg-black text-white p-2 rounded-lg mb-6 hover:bg-white hover:text-black hover:border hover:border-gray-300"
+        >
+          Sign up
+        </button>
+        
+        <button
+          class="w-full border border-gray-300 text-md p-2 rounded-lg mb-6 hover:bg-black hover:text-white"
+        >
+          <img src="google.svg" alt="Google" class="w-6 h-6 inline mr-2" />
+          Sign in with Google
+        </button>
+        
+        <div class="text-center text-gray-400">
+          Don't have an account?
+          <span class="font-bold text-black hover:text-blue-500 hover:underline cursor-pointer">Sign up for free</span>
+        </div>
+      </div>
+      
+      <!-- right side -->
+      <div class="ecommerce">
+        <img
+          src="https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Background"
+          class="w-[550px] h-full hidden rounded-r-2xl md:block object-cover"
+        />
+      </div>
+    </div>
+  </div>
+</body>
+</html>
